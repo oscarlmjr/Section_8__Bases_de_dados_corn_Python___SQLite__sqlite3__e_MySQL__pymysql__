@@ -1,0 +1,4 @@
+https://github.com/luizomf/cursopython2023/commit/5878ec3e5120f27d2b49ba815c8b9ee33c5614d5
+https://www.techonthenet.com/sqlite/index.php
+https://www.sqlite.org/doclist.html
+https://dbeaver.io/download/
