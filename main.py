@@ -37,7 +37,13 @@ sql = (
 	'VALUES '
 	'(?, ?)'   #bindings, placeholders, parâmetros, etc.
 )
-cursor.execute(sql, ['joana', 4])
+# cursor.execute(sql, ['joana', 4])
+cursor.executemany(
+	sql, 
+	(
+	('joana', 4), ('Luiz', 5)
+	)
+	)
 connection.commit()
 print(sql)
 
