@@ -1,0 +1,2 @@
+https://www.sqlite.org/doclist.html
+https://github.com/luizomf/cursopython2023/commit/5dbdae3ab922274a18380c14e8d152f811d87719
