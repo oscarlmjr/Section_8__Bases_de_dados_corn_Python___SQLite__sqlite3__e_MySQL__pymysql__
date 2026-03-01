@@ -1,0 +1,36 @@
+Entendendo Funcionamento de Containers
+https://www.youtube.com/watch?v=85k8se4Zo70
+
+https://www.docker.com/products/docker-desktop/
+
+Install Docker Engine on Ubuntu
+https://docs.docker.com/engine/install/ubuntu/
+
+WSL2 e Docker no Windows 10 (Instalação)
+https://www.youtube.com/watch?v=05YN8F8ajBc
+
+WSL2 e Docker no Windows 10.
+https://gist.github.com/luizomf/8bc93474de107bff6ee09b1ceee481df
+
+
+
+### Tutorial oficial: 
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+### Passo 1 (PowerShell Admin): 
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+### Passo 2 (PowerShell Admin):
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+### Passo 3
+REINICIE O COMPUTADOR
+
+### Passo 4 (Download the Linux kernel update package):
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+### Passo 5 (PowerShell Admin):
+wsl --set-default-version 2
+
+### Passo 7 (Instale o docker):
+Tutorial: https://docs.docker.com/docker-for-windows/install/
