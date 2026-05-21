@@ -1,0 +1,46 @@
+c9ZKBfWWC$W?cH}lf5~5xp+#xp~
+c9ZKBfWWC$W?cH}lf5~5xp+#xp~`7|Lkp&YFvNb!*64(>*eZbaj&ds+X|gn,s
+
+trc8DtYK2Y5BeYAXK82k
+k28KXAYeB5Y2KYtD8crt
+
+
+"liveServer.settings.donotShowInfoMsg": true,
+"workbench.iconTheme": "material-icon-theme",
+
+python -c "import string as s;from secrets import SystemRandom as SR;print(''.join(SR().choices(s.ascii_letters+s.digits+s.punctuation,k=64)));"
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+>>> Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+ssh-keygen
+/c/Users/oscar/.ssh/oscarlmjr_note
+ssh-keygen -R 34.55.42.224 
+git init
+git config --global user.name "oscarlmjr"
+git config --global user.email "oscarlmjr@gmailcom"
+* git config --global init.defaultBranch main *
+
+git remote add origin git@github.com:oscarlmjr/Section_11__.git
+git remote set-url origin git@github.com:oscarlmjr/Section_11__.git
+git remote -v
+eval $(ssh-agent)
+ssh-add ~/.ssh/oscarlmjr_note
+
+git pull origin main
+
+git status > git add .> git  commit -m 'Initial commit'
+git push --set-upstream origin main
+git push --set-upstream --force origin develop
+
+git clone git@github.com:oscarlmjr/Section_11__.git
+
+git pull origin develop
+git push --set-upstream origin develop == git push -u origin develop
+
+
+python -m venv .venv
+.venv/Scripts/activate
+pip install django
+pip install pillow
+python manage.py runserver

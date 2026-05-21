@@ -1,1 +1,0 @@
-# Section_8__Bases_de_dados_corn_Python___SQLite__sqlite3__e_MySQL__pymysql__
